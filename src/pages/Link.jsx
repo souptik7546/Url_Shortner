@@ -59,7 +59,7 @@ export const Link = () => {
       <div className='flex flex-col gap-8 sm:flex-row justify-between'>
         <div className='flex flex-col items-start gap-8 rounded-lg sm:w-2/5'>
           <span className="text-6xl font-extrabold hover:underline cursor-pointer">{url?.title}</span>
-          <a href={`http://localhost:5173/${link}`} className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer"> https://trimrr.in/{link}</a>
+          <a href={`https://url-shortner-m023g7bue-souptiks-projects-bbb4a6e8.vercel.app/${link}`} className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer"> https://trimrr.in/{link}</a>
           <a href={url?.original_url} className="flex items-center gap-1 hover:underline cursor-pointer">{url?.original_url}</a>
           <span className="flex items-end font-extralight text-sm">{new Date(url?.created_at).toLocaleString()}</span>
           <div className='flex gap-2 '>
