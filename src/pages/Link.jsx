@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 import { UrlState } from '../Context'
 import { useNavigate, useParams } from 'react-router-dom';
 import UseFetch from '../hooks/UseFetch';
@@ -9,10 +9,7 @@ import { Copy, Download, Trash } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
