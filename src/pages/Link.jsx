@@ -64,7 +64,7 @@ export const Link = () => {
           <span className="flex items-end font-extralight text-sm">{new Date(url?.created_at).toLocaleString()}</span>
           <div className='flex gap-2 '>
             <Button variant='ghost' onClick={() =>
-              navigator.clipboard.writeText(`https://trimmer.in/${url.short_url}`)
+              navigator.clipboard.writeText(`https://url-shortner-teal-eta.vercel.app/${url.short_url}`)
             }>
               <Copy />
             </Button>
